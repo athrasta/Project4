@@ -20,8 +20,8 @@ function mouseLog() {
     
     // cursor.style.backgroundColor = "rgg(120," + x + ", 120)";
 
-    cursor.style.left = x - 10 + "px";
-    cursor.style.top = y - 10 + "px";
+    cursor.style.left = x - 20 + "px";
+    cursor.style.top = y - 20 + "px";
 };
 
 function firstFunction() {
