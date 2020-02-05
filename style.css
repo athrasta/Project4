@@ -131,8 +131,8 @@ h3 {
     color: #B3C7D1;
     overflow: scroll;
     font-size: 12px;
-    /* padding: 8px; */
-    /* overflow: scroll; */
+    padding: 8px;
+    overflow: scroll;
 
 }
 
@@ -211,8 +211,8 @@ a:hover {
 
 
  .albers1 {
-    height: 60%;
-    width: 30%;
+    height: 40%;
+    width: 20%;
     margin: auto;
     margin-bottom: 5px;
     background-color:  #FFF67E;
@@ -264,11 +264,11 @@ a:hover {
 
 
 .albers3 {
-    height: 95%;
-    width: 90%;
+    height: 85%;
+    width: 80%;
     position: relative;
-    bottom: 250px;
-    right: 40px;
+    bottom: 120px;
+    right: 30px;
     transform: rotate(-25deg);
     background-color: #FFF67E;
     mix-blend-mode: multiply;
@@ -648,11 +648,35 @@ h4 {
     font-size: 42px;
   }
 
+  .albers1 {
+    height: 35%;
+    width: 30%;
+  }
+
+  .albers2 {
+    visibility: hidden;
+
+  }
+  .albers3 {
+    visibility: hidden;
+  }
+
  }
 
  @media (max-width: 1000px) {
   h1 {
     font-size: 32px;
+  }
+
+  .albers1 {
+    visibility: hidden;
+  }
+
+  .albers2 {
+    visibility: hidden;
+  }
+  .albers3 {
+    visibility: hidden;
   }
 
  }
